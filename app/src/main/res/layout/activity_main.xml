@@ -20,7 +20,7 @@
         android:layout_height="wrap_content"
         android:textAppearance="?android:attr/textAppearanceLarge"
         android:layout_gravity="center_horizontal"
-        android:layout_marginBottom="20dp"/>
+        android:layout_marginBottom="@dimen/textview_mb"/>
 
     <Button
         android:id="@+id/btn_movies"
@@ -30,7 +30,7 @@
         android:layout_gravity="center_horizontal"
         android:textColor="@color/white"
         android:background="@color/colorPrimaryDark"
-        android:layout_marginBottom="10dp"
+        android:layout_marginBottom="@dimen/btn_mb"
         android:onClick="onClickShowToast"
         />
 
@@ -40,7 +40,7 @@
         android:layout_width="150dp"
         android:layout_height="wrap_content"
         android:layout_gravity="center_horizontal"
-        android:layout_marginBottom="10dp"
+        android:layout_marginBottom="@dimen/btn_mb"
         android:textColor="@color/white"
         android:background="@color/colorPrimaryDark"
         android:onClick="onClickShowToast"
@@ -52,7 +52,7 @@
         android:layout_width="150dp"
         android:layout_height="wrap_content"
         android:layout_gravity="center_horizontal"
-        android:layout_marginBottom="10dp"
+        android:layout_marginBottom="@dimen/btn_mb"
         android:textColor="@color/white"
         android:background="@color/colorPrimaryDark"
         android:onClick="onClickShowToast"/>
@@ -63,7 +63,7 @@
         android:layout_width="150dp"
         android:layout_height="wrap_content"
         android:layout_gravity="center_horizontal"
-        android:layout_marginBottom="10dp"
+        android:layout_marginBottom="@dimen/btn_mb"
         android:textColor="@color/white"
         android:background="@color/colorPrimaryDark"
         android:onClick="onClickShowToast"/>
@@ -74,7 +74,7 @@
         android:layout_width="150dp"
         android:layout_height="wrap_content"
         android:layout_gravity="center_horizontal"
-        android:layout_marginBottom="10dp"
+        android:layout_marginBottom="@dimen/btn_mb"
         android:textColor="@color/white"
         android:background="@color/colorPrimaryDark"
         android:onClick="onClickShowToast"/>
@@ -85,7 +85,7 @@
         android:layout_width="150dp"
         android:layout_height="wrap_content"
         android:layout_gravity="center_horizontal"
-        android:layout_marginBottom="10dp"
+        android:layout_marginBottom="@dimen/btn_mb"
         android:textColor="@color/white"
         android:background="@color/colorPrimaryDark"
         android:onClick="onClickShowToast"/>
